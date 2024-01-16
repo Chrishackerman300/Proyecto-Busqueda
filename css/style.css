@@ -103,3 +103,50 @@ body{
     text-align: center;
     margin: 40px 0;
 }
+
+.alerta{
+    display: block;
+    width: 100%;
+    background: #db2777;
+    margin-top: 40px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: var(--title);
+    color: var(--color);
+}
+
+/*Responsive*/
+@media screen and (max-width: 985px){
+    .container{
+        width: 90%;
+    }
+    
+    .buscador{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width: 505px){
+    .container{
+        width: 100%;
+    }
+
+    .buscador{
+        grid-template-columns: repeat(1, 1fr)
+    }
+
+    .info{
+        text-align: left;
+        font-size: 1rem;
+    }
+
+    .filter-title{
+        font-size: 2rem;
+    }
+
+    .title{
+        font-size: 2rem;
+    }
+}
