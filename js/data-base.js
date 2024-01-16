@@ -3,7 +3,7 @@ const autos = [
     {
         marca: 'Audi',
         year: 2014,
-        minimo: 55000,
+        precio: 55000,
         puertas: 2,
         transmision: 'Estandar',
         color: 'Negro'
@@ -12,7 +12,7 @@ const autos = [
     {
         marca: 'Mercedes Benz',
         year: 2020,
-        minimo: 80000,
+        precio: 80000,
         puertas: 2,
         transmision: 'Automatico',
         color: 'Blanco'
@@ -21,7 +21,7 @@ const autos = [
     {
         marca: 'Ferrari',
         year: 2017,
-        minimo: 60000,
+        precio: 60000,
         puertas: 2,
         transmision: 'Automatico',
         color: 'Rojo'
@@ -30,7 +30,7 @@ const autos = [
     {
         marca: 'Lamborghini',
         year: 2015,
-        minimo: 55000,
+        precio: 55000,
         puertas: 2,
         transmision: 'Automatico',
         color: 'Amarillo'
@@ -39,7 +39,7 @@ const autos = [
     {
         marca: 'Honda',
         year: 2015,
-        minimo: 42000,
+        precio: 42000,
         puertas: 4,
         transmision: 'Automatico',
         color: 'Amarillo'
@@ -48,7 +48,7 @@ const autos = [
     {
         marca: 'Nissan',
         year: 2014,
-        minimo: 40000,
+        precio: 40000,
         puertas: 4,
         transmision: 'Estandar',
         color: 'Azul'
@@ -57,7 +57,7 @@ const autos = [
     {
         marca: 'Ford',
         year: 2014,
-        minimo: 50000,
+        precio: 50000,
         puertas: 2,
         transmision: 'Estandar',
         color: 'Naranja'
@@ -66,7 +66,7 @@ const autos = [
     {
         marca: 'Volks Wagen',
         year: 2018,
-        minimo: 60000,
+        precio: 60000,
         puertas: 4,
         transmision: 'Estandar',
         color: 'Negro'
@@ -75,7 +75,7 @@ const autos = [
     {
         marca: 'Dodge',
         year: 2019,
-        minimo: 55000,
+        precio: 55000,
         puertas: 4,
         transmision: 'Estandar',
         color: 'Rojo'
@@ -84,7 +84,7 @@ const autos = [
     {
         marca: 'Kia',
         year: 2024,
-        minimo: 65000,
+        precio: 65000,
         puertas: 4,
         transmision: 'Automatico',
         color: 'Azul'
@@ -93,7 +93,7 @@ const autos = [
     {
         marca: 'Honda',
         year: 2021,
-        minimo: 70000,
+        precio: 70000,
         puertas: 2,
         transmision: 'Automatico',
         color: 'Naranja'
@@ -102,7 +102,7 @@ const autos = [
     {
         marca: 'Audi',
         year: 2020,
-        minimo: 89000,
+        precio: 89000,
         puertas: 2,
         transmision: 'Estandar',
         color: 'Blanco'
@@ -111,7 +111,7 @@ const autos = [
     {
         marca: 'Nissan',
         year: 2019,
-        minimo: 60000,
+        precio: 60000,
         puertas: 4,
         transmision: 'Estandar',
         color: 'Azul'
@@ -120,7 +120,7 @@ const autos = [
     {
         marca: 'Ferrari',
         year: 2020,
-        minimo: 73000,
+        precio: 73000,
         puertas: 2,
         transmision: 'Automatico',
         color: 'Negro'
@@ -129,7 +129,7 @@ const autos = [
     {
         marca: 'Lamborghini',
         year: 2023,
-        minimo: 100000,
+        precio: 100000,
         puertas: 2,
         transmision: 'Automatico',
         color: 'Amarillo'
@@ -138,7 +138,7 @@ const autos = [
     {
         marca: 'Mercedes Benz',
         year: 2023,
-        minimo: 85000,
+        precio: 85000,
         puertas: 2,
         transmision: 'Automatico',
         color: 'Blanco'
@@ -147,7 +147,7 @@ const autos = [
     {
         marca: 'Ford',
         year: 2020,
-        minimo: 80000,
+        precio: 80000,
         puertas: 4,
         transmision: 'Estandar',
         color: 'Amarillo'
@@ -156,7 +156,7 @@ const autos = [
     {
         marca: 'Dodge',
         year: 2016,
-        minimo: 40000,
+        precio: 40000,
         puertas: 4,
         transmision: 'Estandar',
         color: 'Azul'
@@ -165,7 +165,7 @@ const autos = [
     {
         marca: 'Volks Wagen',
         year: 2017,
-        minimo: 60000,
+        precio: 60000,
         puertas: 4,
         transmision: 'Automatico',
         color: 'Rojo'
@@ -174,7 +174,7 @@ const autos = [
     {
         marca: 'Kia',
         year: 2019,
-        minimo: 61000,
+        precio: 61000,
         puertas: 2,
         transmision: 'Estandar',
         color: 'Azul'
@@ -183,7 +183,7 @@ const autos = [
     {
         marca: 'Kia',
         year: 2018,
-        minimo: 54000,
+        precio: 54000,
         puertas: 4,
         transmision: 'Estandar',
         color: 'Naranja'
@@ -192,7 +192,7 @@ const autos = [
     {
         marca: 'Audi',
         year: 2014,
-        minimo: 55000,
+        precio: 55000,
         puertas: 2,
         transmision: 'Estandar',
         color: 'Negro'
@@ -201,7 +201,7 @@ const autos = [
     {
         marca: 'Ford',
         year: 2021,
-        minimo: 73000,
+        precio: 73000,
         puertas: 4,
         transmision: 'Automatico',
         color: 'Blanco'
@@ -210,7 +210,7 @@ const autos = [
     {
         marca: 'Ford',
         year: 2017,
-        minimo: 45000,
+        precio: 45000,
         puertas: 4,
         transmision: 'Estandar',
         color: 'Rojo'
@@ -219,7 +219,7 @@ const autos = [
     {
         marca: 'Ferrari',
         year: 2024,
-        minimo: 100000,
+        precio: 100000,
         puertas: 2,
         transmision: 'Automatico',
         color: 'Naranja'
@@ -228,7 +228,7 @@ const autos = [
     {
         marca: 'Nissan',
         year: 2019,
-        minimo: 60000,
+        precio: 60000,
         puertas: 4,
         transmision: 'Estandar',
         color: 'Azul'
@@ -237,7 +237,7 @@ const autos = [
     {
         marca: 'Dodge',
         year: 2023,
-        minimo: 78000,
+        precio: 78000,
         puertas: 4,
         transmision: 'Automatico',
         color: 'Amarillo'
@@ -246,7 +246,7 @@ const autos = [
     {
         marca: 'Nissan',
         year: 2022,
-        minimo: 60000,
+        precio: 60000,
         puertas: 2,
         transmision: 'Estandar',
         color: 'Azul'
@@ -255,7 +255,7 @@ const autos = [
     {
         marca: 'Volks Wagen',
         year: 2022,
-        minimo: 75000,
+        precio: 75000,
         puertas: 5,
         transmision: 'Automatico',
         color: 'Naranja'
@@ -264,7 +264,7 @@ const autos = [
     {
         marca: 'Lamborghini',
         year: 2023,
-        minimo: 80000,
+        precio: 80000,
         puertas: 2,
         transmision: 'Automatico',
         color: 'Blanco'
