@@ -3,9 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Filtrador de Busqueda Proyecto</title>
 </head>
 <body>
+    <section class="section">
+        <h1 class="title">Filtrador de Busqueda de Autos</h1>
+
+        <div class="container">
+            <div class="buscador">
+                <div class="busqueda">
+                    <label for="marca" class="label">Marca</label>
+                    <select name="marca" id="marca" class="select">
+                        <option value="" class="option">Seleccionar</option>
+                        <option value="Audi" class="option">Audi</option>
+                        <option value="Audi" class="option">Mercedes Benz</option>
+                        <option value="Audi" class="option">Ferrari</option>
+                        <option value="Audi" class="option">Lamborghini</option>
+                        <option value="Audi" class="option">Honda</option>
+                        <option value="Audi" class="option">Nissan</option>
+                        <option value="Audi" class="option">Ford</option>
+                        <option value="Audi" class="option">Volks Wagen</option>
+                        <option value="Audi" class="option">Dodge</option>
+                        <option value="Audi" class="option">Kia</option>
+                    </select>
+                </div>
     
+                <div class="busqueda">
+                    <label for="year" class="label">Año</label>
+                    <select name="year" id="year" class="select">
+                        <option value="" class="option">Seleccionar</option>
+                    </select>
+                </div>
+    
+                <div class="busqueda">
+                    <label for="minimo" class="label">Precio Minimo</label>
+                    <select name="minimo" id="minimo" class="select">
+                        <option value="" class="option">Seleccionar</option>
+                        <option value="40000" class="option">40000</option>
+                        <option value="50000" class="option">50000</option>
+                        <option value="60000" class="option">60000</option>
+                        <option value="70000" class="option">70000</option>
+                        <option value="80000" class="option">80000</option>
+                        <option value="90000" class="option">90000</option>
+                        <option value="100000" class="option">100000</option>
+                    </select>
+                </div>
+    
+                <div class="busqueda">
+                    <label for="maximo" class="label">Precio Maximo</label>
+                    <select name="maximo" id="maximo" class="select">
+                        <option value="" class="option">Seleccionar</option>
+                        <option value="40000" class="option">40000</option>
+                        <option value="50000" class="option">50000</option>
+                        <option value="60000" class="option">60000</option>
+                        <option value="70000" class="option">70000</option>
+                        <option value="80000" class="option">80000</option>
+                        <option value="90000" class="option">90000</option>
+                        <option value="100000" class="option">100000</option>
+                    </select>
+                </div>
+    
+                <div class="busqueda">
+                    <label for="puertas" class="label">Puertas</label>
+                    <select name="puertas" id="puertas" class="select">
+                        <option value="" class="option">Seleccionar</option>
+                        <option value="2" class="option">2</option>
+                        <option value="4" class="option">4</option>
+                    </select>
+                </div>
+    
+                <div class="busqueda">
+                    <label for="transmision" class="label">Transmision</label>
+                    <select name="transmision" id="transmision" class="select">
+                        <option value="" class="option">Seleccionar</option>
+                        <option value="Estandar" class="option">Estandar</option>
+                        <option value="Automatico" class="option">Automatico</option>
+                    </select>
+                </div>
+    
+                <div class="busqueda">
+                    <label for="color" class="label">Color</label>
+                    <select name="color" id="color" class="select">
+                        <option value="" class="option">Seleccionar</option>
+                        <option value="negro">Negro</option>
+                        <option value="blanco">Blanco</option>
+                        <option value="rojo">Rojo</option>
+                        <option value="azul">Azul</option>
+                        <option value="verde">Verde</option>
+                        <option value="naranja">Naranja</option>
+                    </select>
+                </div>
+        </div>
+
+        <div class="filtrador">
+            <h2 class="filter-title">Resultado de la Busqueda</h2>
+            <div id="resultado" class="resultado"></div>
+        </div>
+    </div>
+    </section>
 </body>
 </html>
